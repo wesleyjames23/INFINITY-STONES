@@ -1,0 +1,70 @@
+@media (max-width: 425px) {
+  /* resuable css */
+  .header-text {
+    font-size: 2rem;
+  }
+  /* infinity gauntlet */
+
+  .text-gauntlet {
+    font-size: 1rem;
+
+    top: 48%;
+    left: 71%;
+  }
+
+  .text-infinity {
+    font-size: 1rem;
+    top: 48%;
+    left: 27%;
+  }
+
+  .img-infinity img {
+    width: 6rem;
+  }
+
+  /* infinity stone */
+
+  .container-infinitystones {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 1rem;
+  }
+
+  .textbox {
+    color: #ffffff;
+    padding: 2rem;
+    font-size: 0.8rem;
+  }
+
+  .img-stones img {
+    width: 5rem;
+  }
+
+  .soulimg {
+    grid-row: 1;
+  }
+
+  .powerimg {
+    grid-row: 5;
+  }
+
+  .realityimg {
+    grid-row: 9;
+  }
+
+  /* slider image and auntheticator section */
+
+  .aunthenticator-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .img-silder-gallery {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .img-list {
+    min-width: 15rem;
+  }
+}

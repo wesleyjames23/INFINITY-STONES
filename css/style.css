@@ -1,0 +1,214 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-image: url(../img/background2.jpg);
+  font-family: "Work Sans", sans-serif;
+}
+
+/* resuable css */
+.header-text {
+  color: #ffffff;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+/* main css */
+.section-one {
+  overflow: hidden;
+  height: 90vh;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-list {
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 1rem;
+}
+
+.container-infinitygaunlet {
+  text-align: center;
+  position: relative;
+}
+
+.img-infinity {
+  margin-top: 5rem;
+  text-align: center;
+  animation: breathe 3500ms infinite forwards;
+}
+
+@keyframes breathe {
+  50% {
+    transform: scaleX(1.1) scaleY(1.1);
+  }
+  100% {
+    transform: scaleX(1) scaleY(1);
+  }
+}
+
+.text-gauntlet {
+  font-size: clamp(1rem, 5vw, 4rem);
+  color: #ffffff;
+  text-transform: uppercase;
+  position: absolute;
+  top: 48%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.text-infinity {
+  font-size: clamp(1rem, 5vw, 4rem);
+  color: #ffffff;
+  text-transform: uppercase;
+  position: absolute;
+  top: 48%;
+  left: 36%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+/* infinity stone */
+
+.container-infinitystones {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2rem;
+  margin-top: 3rem;
+}
+
+.img-stones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textbox {
+  color: #ffffff;
+  font-size: 1.4rem;
+  padding: 5rem;
+}
+
+.soultext {
+  color: orange;
+}
+
+.mindtext {
+  color: yellow;
+}
+
+.powertext {
+  color: purple;
+}
+
+.timetext {
+  color: green;
+}
+
+.realitytext {
+  color: red;
+}
+
+.spacetext {
+  color: blue;
+}
+
+/* authenticator section */
+
+.aunthenticator-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  margin-top: 5rem;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 2rem 2rem;
+}
+
+.icon {
+  width: 45px;
+  height: 45px;
+  color: white;
+  padding: 1rem;
+}
+
+.icon-text-box {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: white;
+}
+
+/* image slider */
+.img-silder-gallery {
+  display: flex;
+  width: 20rem;
+  height: 20rem;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+.img-gallery-list {
+  min-width: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10rem;
+  padding: 2rem;
+  scroll-snap-align: center;
+}
+
+/* collect soul section */
+.collect-all-stones {
+  height: 60vh;
+}
+
+/* .img-stones-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem 2rem;
+}
+
+.img-box {
+  width: 15rem;
+}
+
+.img-stone-list {
+  max-width: 100%;
+} */
+
+.img-list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem 2rem;
+}
+
+.img-list {
+  width: 20rem;
+  list-style: none;
+}
+
+.img-stone-list {
+  max-width: 100%;
+}
+
+
